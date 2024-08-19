@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/tigresa.png" type="image/x-icon">
+    <title>Semantica</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <hr>
+    <p>Nesta frase tem um <strong>termo em destaque ("strong")</strong></p> <!--"strong" para negrito-->
+    <p>Nesta frase temos um termo em <em>itálico</em> ("em")</p> <!--"em" para itálico-->
+    <h2>Texto excluido</h2>
+    <p><del>Marcar um texto como excluido ("del")</del></p>
+    <h2>Texto inserido</h2>
+    <p><ins>Marcar um texto como inserido ("ins")</ins></p>
+    <h2>Texto sobrescrito</h2>
+    <p>a<sup>2</sup>=b<sup>2</sup>+c<sup>2</sup> ("sup")</p>
+    <h2>texto subescrito</h2>
+    <p>H<sub>2</sub>O ("sub")</p>
+    <hr>
+    <p>Escrever como código: <code>documento.getElementById('teste')</code> ("code")</p>
+    <p>Escrever um código com a indentação correta ("pre" + "code"):</p>
+    <pre>
+        <code>
+            num = int(input('Digite um numero'))
+            if num % 2 == 0:
+                print(f'O numero {num} é PAR')
+            ELSE:
+                print(f'O número {num} é IMPAR')
+            print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo:<q>O computador é um burro muito rápido</q> ("q")</p>
+    <h2>Citações Completas</h2>
+    
+    <p>Segundo Vitão, no seu livro, como ser um ótimo programador ("blockquote")</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_e_CSS/WNfzEAAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+        A diferença entre elementos inline e blocos de texto é importante.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Marjup Language">HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr>. Estou amando ("abbr")</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo> ("bdo")</p>
+    <hr>
+    <a href="index.html">Index</a>
+</body>
+</html>
